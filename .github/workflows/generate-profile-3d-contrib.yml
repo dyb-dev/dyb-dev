@@ -17,7 +17,7 @@ jobs:
 
     steps:
       # 第一步，检出仓库代码
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # 使用 yoshi389111 提供的生成 GitHub 3D 贡献图的 Action
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
