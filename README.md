@@ -13,9 +13,9 @@
                                                         
   ```
 
-  ![Typing SVG](https://readme-typing-svg.demolab.com/?color=3ac9fe&lines=First+line+of+text;Second+line+of+text)
+  ![Typing SVG](https://readme-typing-svg.demolab.com/?width=620&pause=2000&color=3ac9fe&lines=🎵+In+The+Name+Of+Love+is+a+highly+recommended+song!)
 
-  ![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)
+  <img src="./image/player.svg" alt="" />
   
   ![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
   ![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)
