@@ -29,7 +29,7 @@ jobs:
     steps:
       # Checkout the repository to the runner
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       # 生成蛇形 GitHub 贡献图，输出为 SVG 文件
       - name: generate snake-animation.svg
