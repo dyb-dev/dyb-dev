@@ -12,10 +12,11 @@
       \/_/\/_/\/____/\/____/\/____/\/___/      '\/__//__/  \/___/  \/_/  \/____/\/__,_ /\/_/
                                                         
   ```
+  <img src="./image/player.svg" alt="" />
 
   ![Typing SVG](https://readme-typing-svg.demolab.com/?width=620&pause=2000&color=3ac9fe&lines=🎵+In+The+Name+Of+Love+is+a+highly+recommended+song!)
 
-  <img src="./image/player.svg" alt="" />
+
   
   ![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
   ![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)
