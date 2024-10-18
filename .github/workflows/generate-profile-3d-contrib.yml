@@ -1,0 +1,42 @@
+# 设置 GitHub Actions 工作流名称
+name: generate-profile-3d-contrib
+
+on:
+  # 每天北京时间早上 9 点自动执行
+  schedule:
+    - cron: "0 1 * * *"
+
+  # 允许你从 GitHub Actions 界面手动触发工作流
+  workflow_dispatch:
+
+jobs:
+  build:
+    # 设置工作运行的操作系统环境为最新的 Ubuntu
+    runs-on: ubuntu-latest
+    name: generate-profile-3d-contrib
+
+    steps:
+      # 第一步，检出仓库代码
+      - uses: actions/checkout@v3
+
+      # 使用 yoshi389111 提供的生成 GitHub 3D 贡献图的 Action
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          # GitHub 提供的访问令牌，用于认证和操作仓库
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 获取当前仓库所有者的 GitHub 用户名
+          USERNAME: ${{ github.repository_owner }}
+
+      # 提交并推送生成的 3D 贡献图
+      - name: commit & push
+        run: |
+          # 配置 Git 用户名
+          git config user.name github-actions
+          # 配置 Git 用户邮箱
+          git config user.email github-actions@github.com
+          # 添加所有更改
+          git add -A .
+          # 提交更改，备注为 'generate-profile-3d-contrib'
+          git commit -m "generate-profile-3d-contrib"
+          # 推送到远程仓库
+          git push
