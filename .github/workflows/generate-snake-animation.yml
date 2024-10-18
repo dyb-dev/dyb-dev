@@ -1,0 +1,59 @@
+# 设置 GitHub Actions 工作流名称
+name: generate-snake-animation
+
+on:
+  # 每天北京时间上午 9 点自动运行
+  schedule:
+    - cron: "0 1 * * *"
+
+  # 允许你从 GitHub Actions 界面手动触发工作流
+  workflow_dispatch:
+
+  # 在每次推送到 main 分支时运行
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    # 设置工作所需的权限，允许写入内容
+    permissions: 
+      contents: write
+
+    # 设置工作运行的操作系统环境
+    runs-on: ubuntu-latest
+
+    # 设置工作超时时间
+    timeout-minutes: 5
+
+    steps:
+      # Checkout the repository to the runner
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 生成蛇形 GitHub 贡献图，输出为 SVG 文件
+      - name: generate snake-animation.svg
+        # 使用 Platane/snk 提供的 action 来生成动画
+        uses: Platane/snk/svg-only@v3
+        with:
+          # 使用当前仓库所有者名称
+          github_user_name: ${{ github.repository_owner }}
+          # 输出文件路径，存放在 snake-animation 目录下
+          outputs: |
+            dist/snake-animation/snake-animation.svg
+            dist/snake-animation/snake-animation-dark.svg?palette=github-dark
+
+      # 将生成的文件提交到暂存区
+      - name: Commit generated SVG files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add dist/snake-animation/snake-animation.svg dist/snake-animation/snake-animation-dark.svg
+          git commit -m "Add generated snake animation files"
+
+      # 推送更改到 main 分支
+      - name: Push changes to main branch
+        run: |
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
