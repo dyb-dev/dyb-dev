@@ -40,15 +40,15 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           # 输出文件路径，存放在 snake-animation 目录下
           outputs: |
-            dist/snake-animation/snake-animation.svg
-            dist/snake-animation/snake-animation-dark.svg?palette=github-dark
+            snake-animation/snake-animation.svg
+            snake-animation/snake-animation-dark.svg?palette=github-dark
 
       # 将生成的文件提交到暂存区
       - name: Commit generated SVG files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add dist/snake-animation/snake-animation.svg dist/snake-animation/snake-animation-dark.svg
+          git add snake-animation/snake-animation.svg snake-animation/snake-animation-dark.svg
           git commit -m "Add generated snake animation files"
 
       # 推送更改到 main 分支
