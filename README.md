@@ -24,10 +24,11 @@
   ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
   ![Vue.js](https://img.shields.io/badge/-Vue.js-%232c3e50?style=flat-square&logo=vuedotjs)
   ![UniApp](https://img.shields.io/badge/-UniApp-%23007ACC?style=flat-square&logo=uniapp&logoColor=ffffff)
-  ![Mp-Wx](https://img.shields.io/badge/-Mp--wx-%2307C160?style=flat-square&logo=wechat&logoColor=ffffff)
+  ![MP-WX](https://img.shields.io/badge/-MP--WX-%2307C160?style=flat-square&logo=wechat&logoColor=ffffff)
   ![Vitepress](https://img.shields.io/badge/-Vitepress-%23646CFF?style=flat-square&logo=vite&logoColor=ffffff)
   ![Pixijs](https://img.shields.io/badge/-Pixijs-%23FF0044?style=flat-square&logo=pixijs&logoColor=ffffff)
   ![Nodejs](https://img.shields.io/badge/-Nodejs-%23339933?style=flat-square&logo=nodedotjs&logoColor=ffffff)
+  ![Esbuild](https://img.shields.io/badge/-Esbuild-%23000000?style=flat-square&logo=esbuild&logoColor=white)
   
   ![Postcss](https://img.shields.io/badge/-Postcss-%23DD3A0A?style=flat-square&logo=postcss&logoColor=ffffff)
   ![Less](https://img.shields.io/badge/-Less-%231d365d?style=flat-square&logo=less&logoColor=ffffff)
