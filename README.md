@@ -28,6 +28,7 @@
   ![Vitepress](https://img.shields.io/badge/-Vitepress-%23646CFF?style=flat-square&logo=vite&logoColor=ffffff)
   ![Pixijs](https://img.shields.io/badge/-Pixijs-%23FF0044?style=flat-square&logo=pixijs&logoColor=ffffff)
   ![Nodejs](https://img.shields.io/badge/-Nodejs-%23339933?style=flat-square&logo=nodedotjs&logoColor=ffffff)
+  ![pnpm](https://img.shields.io/badge/-pnpm-%234b7bec?style=flat-square&logo=pnpm&logoColor=ffffff)
   ![Esbuild](https://img.shields.io/badge/-Esbuild-%23000000?style=flat-square&logo=esbuild&logoColor=white)
   
   ![Postcss](https://img.shields.io/badge/-Postcss-%23DD3A0A?style=flat-square&logo=postcss&logoColor=ffffff)
@@ -40,6 +41,7 @@
   ![Stylelint](https://img.shields.io/badge/-Stylelint-%23333333?style=flat-square&logo=stylelint&logoColor=ffffff)
   ![Markdownlint](https://img.shields.io/badge/-Markdownlint-%231572B6?style=flat-square&logo=markdown&logoColor=ffffff)
   ![VS Code](https://img.shields.io/badge/-VSCode-%23007ACC?style=flat-square&logo=visual-studio-code)
+  ![Iconfont](https://img.shields.io/badge/-Iconfont-%23FF6A00?style=flat-square&logo=iconfont&logoColor=ffffff)
   ![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)
   ![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab)
   ![GitHub](https://img.shields.io/badge/-GitHub-%23181717?style=flat-square&logo=github&logoColor=ffffff)
