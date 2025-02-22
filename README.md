@@ -42,6 +42,7 @@
   ![Stylelint](https://img.shields.io/badge/-Stylelint-%23333333?style=flat-square&logo=stylelint&logoColor=ffffff)
   ![Markdownlint](https://img.shields.io/badge/-Markdownlint-%231572B6?style=flat-square&logo=markdown&logoColor=ffffff)
   ![VS Code](https://img.shields.io/badge/-VSCode-%23007ACC?style=flat-square&logo=visual-studio-code)
+  ![Cursor](https://img.shields.io/badge/-Cursor-%23000000?style=flat-square&logo=cursor&logoColor=ffffff)
   ![Iconfont](https://img.shields.io/badge/-Iconfont-%23FF6A00?style=flat-square&logo=iconfont&logoColor=ffffff)
   ![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)
   ![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab)
