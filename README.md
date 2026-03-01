@@ -20,10 +20,10 @@
   ![React](https://img.shields.io/badge/-React-%2361DAFB?style=flat-square&logo=react&logoColor=ffffff)
   ![Next](https://img.shields.io/badge/-Next-000000?style=flat-square&logo=nextdotjs&logoColor=white)
   ![Vue](https://img.shields.io/badge/-Vue-%232c3e50?style=flat-square&logo=vuedotjs)
-  ![UniApp](https://img.shields.io/badge/-UniApp-%23007ACC?style=flat-square&logo=uniapp&logoColor=ffffff)
+  ![UniApp](https://img.shields.io/badge/-UniApp-%232B9939?style=flat-square&logo=unicode&logoColor=ffffff)
   ![MP-WX](https://img.shields.io/badge/-MP--WX-%2307C160?style=flat-square&logo=wechat&logoColor=ffffff)
   ![Vitepress](https://img.shields.io/badge/-Vitepress-%23646CFF?style=flat-square&logo=vite&logoColor=ffffff)
-  ![Pixi](https://img.shields.io/badge/-Pixi-%23FF0044?style=flat-square&logo=pixijs&logoColor=ffffff)  
+  ![Pixi](https://img.shields.io/badge/-Pixi-%23FF0044?style=flat-square&logo=pixiv&logoColor=ffffff)  
   ![Vite](https://img.shields.io/badge/-Vite-%23646CFF?style=flat-square&logo=vite&logoColor=ffffff)
 
   ![Node](https://img.shields.io/badge/-Node-%23339933?style=flat-square&logo=nodedotjs&logoColor=ffffff)
