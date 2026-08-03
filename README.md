@@ -33,10 +33,10 @@
   ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-%23336791?style=flat-square&logo=postgresql&logoColor=ffffff)
   ![Prisma](https://img.shields.io/badge/-Prisma-%232D3748?style=flat-square&logo=prisma&logoColor=ffffff)
   ![Redis](https://img.shields.io/badge/-Redis-%23DC382D?style=flat-square&logo=redis&logoColor=ffffff)
-  ![Cursor](https://img.shields.io/badge/-Cursor-%23000000?style=flat-square&logo=cursor&logoColor=ffffff)
   ![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)
   ![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab)
   ![GitHub](https://img.shields.io/badge/-GitHub-%23181717?style=flat-square&logo=github&logoColor=ffffff)
+  ![Claude](https://img.shields.io/badge/-Claude-%23D97757?style=flat-square&logo=claude&logoColor=ffffff)
 
   <picture>
     <source srcset="./profile-3d-contrib/profile-night-view.svg" media="(prefers-color-scheme: dark)">
