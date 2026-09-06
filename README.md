@@ -33,6 +33,7 @@
   ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-%23336791?style=flat-square&logo=postgresql&logoColor=ffffff)
   ![Prisma](https://img.shields.io/badge/-Prisma-%232D3748?style=flat-square&logo=prisma&logoColor=ffffff)
   ![Redis](https://img.shields.io/badge/-Redis-%23DC382D?style=flat-square&logo=redis&logoColor=ffffff)
+  ![Nginx](https://img.shields.io/badge/-Nginx-%23009639?style=flat-square&logo=nginx&logoColor=ffffff)
   ![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)
   ![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab)
   ![GitHub](https://img.shields.io/badge/-GitHub-%23181717?style=flat-square&logo=github&logoColor=ffffff)
